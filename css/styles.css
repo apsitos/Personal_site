@@ -1,0 +1,90 @@
+header {
+  height: 50px;
+  padding: 15px;
+  background-color: #7DC3F1;
+}
+
+header h1 {
+  font-family: cursive;
+  font-size: 42px;
+  float: left;
+}
+
+header nav {
+  float: right;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.bio h1 {
+  font-family: serif;
+  font-size: 32px;
+  font-weight: bold;
+  padding: 15px;
+}
+
+p {
+  padding: 10px;
+}
+
+.projects h1 {
+  font-family: serif;
+  font-size: 32px;
+  font-weight: bold;
+  padding: 15px 0;
+  text-align: left;
+}
+
+.projects {
+  width: 25%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  margin: 0 10px;
+}
+
+.projects p {
+  font-size: 14px;
+}
+
+.projects img {
+  width: 300px;
+  height: 200px;
+  margin: 25px;
+}
+
+.education h1 {
+  font-family: serif;
+  font-size: 32px;
+  font-weight: bold;
+  padding: 15px;
+  text-align: left;
+}
+
+.education h2 {
+  font-family: serif;
+  font-size: 26px;
+  font-weight: bold;
+  padding: 15px;
+  text-align: left
+}
+
+footer {
+  background: #7DC3F1;
+  margin-top: 50px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer li {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+footer img {
+  height: 30px;
+  width: 30px;
+}
