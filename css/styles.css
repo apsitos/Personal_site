@@ -1,13 +1,21 @@
 header {
   height: 50px;
   padding: 15px;
-  background-color: #7DC3F1;
+  background-color: #A1C084;
 }
 
 header h1 {
-  font-family: cursive;
+  font-family: Cardo, serif;
   font-size: 42px;
   float: left;
+  color: #373F47;
+  position: absolute;
+}
+
+header h2 {
+  font-size: 32px;
+  color: #373F47;
+  position: absolute;
 }
 
 header nav {
@@ -19,45 +27,73 @@ nav li {
   padding: 0 5px;
 }
 
+:link {
+  text-decoration: none;
+}
+
+body {
+  background-color: #EAEFBD;
+}
+
+p {
+  padding: 10px;
+  font-family: "Josefin Sans";
+}
+
 .bio h1 {
-  font-family: serif;
+  color: #373F47;
+  font-family: Cardo, serif;
   font-size: 32px;
   font-weight: bold;
   padding: 15px;
 }
 
-p {
-  padding: 10px;
+.bio h2 {
+  font-family: serif;
+  font-size: 26px;
+  font-weight: bold;
+  padding: 15px;
+  text-align: left
 }
 
-.projects h1 {
-  font-family: serif;
-  font-size: 32px;
-  font-weight: bold;
-  padding: 15px 0;
-  text-align: left;
+.bio p {
+  width: 700px;
+  font-size: 18px;
+  font-family: "Josefin Sans";
 }
 
 .projects {
-  width: 25%;
-  display: inline-block;
   text-align: center;
   vertical-align: top;
-  margin: 0 10px;
+}
+
+.projects h1 {
+  color: #373F47;
+  font-family: Cardo, serif;
+  font-size: 32px;
+  font-weight: bold;
+  padding: 15px;
+  text-align: left;
+}
+
+.projects article {
+  display: inline-block;
+  margin: 0 25px;
 }
 
 .projects p {
+  font-family: "Josefin Sans";
   font-size: 14px;
 }
 
 .projects img {
   width: 300px;
   height: 200px;
-  margin: 25px;
+  margin: 25px auto;
 }
 
 .education h1 {
-  font-family: serif;
+  font-family: Cardo, serif;
   font-size: 32px;
   font-weight: bold;
   padding: 15px;
@@ -73,7 +109,7 @@ p {
 }
 
 footer {
-  background: #7DC3F1;
+  background: #A1C084;
   margin-top: 50px;
   padding: 20px 0;
   text-align: center;
